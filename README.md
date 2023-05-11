@@ -1,8 +1,7 @@
 # ChatGPT Discord Bot
 
 > ### Build your own Discord bot using ChatGPT
->
->  [**中文安裝說明**](https://zero6992.github.io/2023/03/09/chatGPT-discord-bot-chinese/)
+
 ---
 > **Warning**
 >
@@ -18,7 +17,7 @@
 
 ## Critical prerequisites to install
 
-* run ```pip3 install -r requirements.txt``` or ```pip install -r requirements.txt```
+* run ```pip3 install -r requirements.txt```
 
 * **Rename the file `.env.example` to `.env`**
 
@@ -58,7 +57,7 @@
 ---
 ## Step 2: Website ChatGPT authentication - 2 approaches
 
-* 2023-04-01: Only Support Plus Account now
+> **Only Support ChatGPT Plus Account**
 
 ### Email/Password approache (Not supported for Google/Microsoft accounts)
 
@@ -145,6 +144,7 @@
 * You can set it up by modifying the content in `system_prompt.txt`
 * All the text in the file will be fired as a prompt to the bot
 * Get the first message from ChatGPT in your discord channel!
+* Go Discord setting turn `developer mode` on
 
    1. Right-click the channel you want to recieve the message, `Copy  ID`
 
@@ -152,6 +152,8 @@
 
    2. paste it into `.env` under `DISCORD_CHANNEL_ID`
 
+------
+>  [**中文設置教學**](https://zero6992.github.io/2023/03/09/chatGPT-discord-bot-chinese/)
 ------
 ## Commands
 
